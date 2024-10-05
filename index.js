@@ -124,7 +124,7 @@ const opticsTheoryData = {
 // Function to speak in Hindi
 const speakFun = (input) => {
     let speakInput = new SpeechSynthesisUtterance(input);
-    speakInput.rate = 5;
+    speakInput.rate = 1;
     speakInput.pitch = 1;
     speakInput.volume = 1;
     speakInput.lang = 'hi-IN';  // Hindi Language
